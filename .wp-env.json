@@ -1,0 +1,8 @@
+{
+	"mappings": {
+		"wp-content/mu-plugins": "./wp-content/mu-plugins",
+		"wp-content/plugins": "./wp-content/plugins"
+	},
+	"port": 11223,
+	"testsPort": 22334
+}

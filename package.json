@@ -1,0 +1,14 @@
+{
+	"name": "@chiilog/block-developers-cookbook",
+	"private": true,
+	"version": "0.1.0",
+	"description": "",
+	"license": "GPL-2.0-or-later",
+	"main": "index.js",
+	"scripts": {
+		"env": "wp-env"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^9.5.0"
+	}
+}
