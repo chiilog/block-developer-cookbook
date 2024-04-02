@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "block-developers-cookbook/acronym-format",
+	"version": "2.0.3",
+	"title": "Acronym Format",
+	"category": "widgets",
+	"example": {},
+	"textdomain": "acronym-format",
+	"editorScript": "file:./acronym.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
