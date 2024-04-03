@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "block-developers-cookbook/customize-build-proces",
+	"version": "1.0.5",
+	"title": "Customize Build Proces",
+	"category": "widgets",
+	"example": {},
+	"textdomain": "customize-build-proces",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
