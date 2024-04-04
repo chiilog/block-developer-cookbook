@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "block-developers-cookbook/gallery-slider",
+	"version": "1.0.2",
+	"title": "Gallery Slider",
+	"category": "media",
+	"icon": "media-interactive",
+	"description": "A gallery slider built using the Interactivity API",
+	"example": {},
+	"attributes": {
+		"continuous": {
+			"type": "boolean"
+		}
+	},
+	"supports": {
+		"interactivity": true,
+		"align": true,
+		"alignWide": true
+	},
+	"textdomain": "gallery-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScriptModule": "file:./view.js",
+	"render": "file:./render.php"
+}

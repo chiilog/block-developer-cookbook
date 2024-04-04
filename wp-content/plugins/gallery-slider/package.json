@@ -1,0 +1,24 @@
+{
+	"name": "gallery-slider",
+	"version": "1.0.2",
+	"description": "A gallery slider built using the Interactivity API",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --experimental-modules",
+		"format": "wp-scripts format --experimental-modules",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"devDependencies": {
+		"@wordpress/scripts": "^27.6.0"
+	},
+	"dependencies": {
+		"@wordpress/interactivity": "^5.4.0"
+	}
+}
