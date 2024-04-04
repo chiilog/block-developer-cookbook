@@ -18,6 +18,7 @@ $context = array_merge(
 		'totalSlides'  => 0,
 	)
 );
+var_dump($attributes);
 ?>
 <div <?php echo wp_kses_data( get_block_wrapper_attributes() ); ?>
 	data-wp-interactive="gallery-slider"
@@ -27,11 +28,6 @@ $context = array_merge(
 		<?php echo wp_kses_post( $content ); ?>
 	</div>
 	<div class="buttons">
-		<?php
-		/**
-		 * actions.~ が動いてない
-		 */
-		?>
 		<button aria-label="go to previous slide" data-wp-on--click="actions.prevSlide">&lt;</button>
 		<p>1/10</p>
 		<button aria-label="go to next slide" data-wp-on--click="actions.nextSlide">&gt;</button>
